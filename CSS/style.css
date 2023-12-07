@@ -1,3 +1,5 @@
+/*GENERICS*/
+
 header{
     height: 80px;
     background-color: #2C3E50;
@@ -16,10 +18,17 @@ header{
     border: 2px dashed red;
 }
 
-/*UTILS*/
-
-.row{
-    display: flex;
+.portfolio{
+    height: 500px;
+    background-color: rosybrown;
 }
 
+/*UTILS*/
 
+.border-row{
+    border: 2px dashed rgb(236, 236, 236);
+}
+
+.border-col{
+    border: 2px dashed red;
+}
