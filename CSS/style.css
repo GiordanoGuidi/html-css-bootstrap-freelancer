@@ -16,8 +16,13 @@ section.about{
     background-color: cornflowerblue;
 }
 
+.section.contact-me{
+    background-color: goldenrod;
+}
+
 .row{
     height: 400px;
+    width: 100%;
 }
 
 .col-{
@@ -33,9 +38,6 @@ section.about{
     border: 2px dashed red;
 }
 
-.row{
-    height: 300px;
-}
 
 .user-row{
     height: 70px;
