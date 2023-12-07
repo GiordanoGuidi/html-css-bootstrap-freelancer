@@ -1,28 +1,28 @@
 /*GENERICS*/
 
 header{
-    height: 80px;
     background-color: #2C3E50;
 }
 
 .jumbotron{
-    height: 200px;
     background-color: #1BBC9C;
 }
 
-.border-row{
-    border: 2px dashed rgb(236, 236, 236);
-}
-
-.border-col{
-    border: 2px dashed red;
-}
-
-.portfolio{
-    height: 500px;
+section.portfolio{
     background-color: rosybrown;
 }
 
+section.about{
+    background-color: cornflowerblue;
+}
+
+.row{
+    height: 400px;
+}
+
+.col-{
+    height: 100px;
+}
 /*UTILS*/
 
 .border-row{
@@ -31,4 +31,12 @@ header{
 
 .border-col{
     border: 2px dashed red;
+}
+
+.row{
+    height: 300px;
+}
+
+.user-row{
+    height: 70px;
 }
