@@ -5,11 +5,21 @@ header{
 
 .jumbotron{
     height: 200px;
+    background-color: #1BBC9C;
 }
 
-.border{
+.border-row{
+    border: 2px dashed rgb(236, 236, 236);
+}
+
+.border-col{
     border: 2px dashed red;
 }
 
 /*UTILS*/
+
+.row{
+    display: flex;
+}
+
 
