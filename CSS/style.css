@@ -18,18 +18,19 @@ section.about{
     background-color: cornflowerblue;
 }
 
-.section.contact-me{
-    background-color: goldenrod;
+section.contact-me{
+    background-color: violet;
 }
 
+
 .row{
-    height: 400px;
     width: 100%;
 }
 
 .col-{
     height: 100px;
 }
+
 /*UTILS*/
 
 .border-row{
