@@ -22,12 +22,16 @@ section.contact-me{
     background-color: violet;
 }
 
+section.information{
+    background-color: #39546d;
+}
+
 
 .row{
     width: 100%;
 }
 
-.col-{
+.col{
     height: 100px;
 }
 
