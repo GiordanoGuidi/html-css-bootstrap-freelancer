@@ -26,6 +26,11 @@ section.information{
     background-color: #39546d;
 }
 
+footer{
+    background-color: #2C3E50;
+    height: 70px;
+}
+
 
 .row{
     width: 100%;
