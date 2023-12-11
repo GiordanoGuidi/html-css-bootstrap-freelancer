@@ -4,7 +4,7 @@ header{
     color: white;
 }
 
-#jumbotron{
+.bg-green{
     background-color: #1BBC9C;
 }
 
@@ -33,9 +33,9 @@ footer{
     height: 100px;
 }
 
-section{
+/* section{
     min-height: 300px;
-}
+} */
 
 /*UTILS*/
 
@@ -55,4 +55,16 @@ section{
     border: 2px dashed blueviolet;
 }
 
+/*JUMBOTRON*/
+
+.card-img{
+    min-height: 400px;
+    width: 400px;
+}
+
+.line{
+    width: 20%;
+    height: 4px;
+   background-color: white;
+}
 
