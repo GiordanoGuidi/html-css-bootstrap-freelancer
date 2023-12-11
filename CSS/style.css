@@ -1,7 +1,6 @@
 /*GENERICS*/
 header{
     background-color: #2C3E50;
-    height: 70px;
     color: white;
 }
 
@@ -57,6 +56,3 @@ section{
 }
 
 
-.user-row{
-    height: 70px;
-}
