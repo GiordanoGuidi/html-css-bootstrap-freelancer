@@ -39,20 +39,22 @@
           </nav>
     </header>
     <!--JUMBOTRON-->
-    <section id="jumbotron" class="container-fluid d-flex justify-content-center bg-green">
-        <div class="card-img text-center text-white ">
-            <img src="img/avatar.svg" alt="">
-            <h1 class="my-3">START BOOTSTRAP</h1>
-            <div class="separator d-flex align-items-center justify-content-center gap-2">
-                <div class="line"></div>
-                <span><i class="fa-solid fa-star fa-xl"></i></span>
-                <div class="line"></div>
+    <section id="jumbotron" class="container-fluid text-center d-flex flex-column align-items-center bg-green text-white">
+        <div>
+            <div class="card my-5" style="width: 18rem;">
+                <img src="img/avatar.svg" class="card-img-top" alt="...">
             </div>
-            <div class="my-3 fs-4">
-                <span>GRAPICH ARTIST-</span>
-                <span>WEB DESIGNER -</span>
-                <span>ILLUSTRATOR</span>
-            </div>
+        </div>
+        <h1 class="fw-bold ">START BOOTSTRAP</h1>
+        <div class="separator d-flex align-items-center justify-content-center gap-2">
+            <div class="line"></div>
+            <span><i class="fa-solid fa-star fa-xl text-white"></i></span>
+            <div class="line"></div>
+        </div>
+        <div class="my-3 fs-4">
+            <span>GRAPICH ARTIST-</span>
+            <span>WEB DESIGNER -</span>
+            <span>ILLUSTRATOR</span>
         </div>
     </section>
     <main>
@@ -63,9 +65,9 @@
                 <div class="w-100 text-black">
                     <h2 class="text-center mb-3">Portfolio</h2>
                     <div class="separator d-flex align-items-center justify-content-center gap-2">
-                        <div class="line"></div>
+                        <div class="line bg-black"></div>
                         <span><i class="fa-solid fa-star fa-xl"></i></span>
-                        <div class="line"></div>
+                        <div class="line bg-black"></div>
                     </div>
                 </div>
             </div>
@@ -104,14 +106,14 @@
             </div>
         </section>
         <!--SECTION ABOUT-->
-        <section id="about">
-            <div class="container">
+        <section id="about" class="bg-green">
+            <div class="container text-light">
                 <div class="row border-row">
                     <div class="col border-col">
-                        <p>About</p>
+                        <p class="text-center mt-3">About</p>
                     </div>
                 </div>
-                <div class="row border-row justify-content-center ">
+                <div class="row border-row justify-content-center">
                     <div class="col-10 col-md-5 border-col">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maxime a nihil officia minus recusandae eveniet asperiores iusto iste itaque. Qui delectus deserunt nobis aliquid, molestiae tempora consequatur culpa magnam.</p>
                     </div>
@@ -120,8 +122,8 @@
                     </div>
                 </div>
                 <div class="row border-row">
-                    <div class="col border-col">
-                        <p>Download</p>
+                    <div class="col border-col text-center mt-3">
+                        <button class="p-2 text-light bg-green border-light rounded-2"> <i class="fa-solid fa-download me-1"></i>Download</button>
                     </div>
                  </div>
             </div>
