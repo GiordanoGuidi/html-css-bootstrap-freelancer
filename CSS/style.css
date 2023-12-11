@@ -13,7 +13,7 @@ header{
     background-color: rosybrown;
 }
 
-section.about{
+#about{
     background-color: cornflowerblue;
 }
 
@@ -47,6 +47,10 @@ footer{
 
 .border-col{
     border: 2px dashed red;
+}
+
+.container{
+    border: 2px dashed black;
 }
 
 
