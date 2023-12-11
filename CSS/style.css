@@ -5,11 +5,11 @@ header{
     color: white;
 }
 
-.jumbotron{
+#jumbotron{
     background-color: #1BBC9C;
 }
 
-section.portfolio{
+#portfolio{
     background-color: rosybrown;
 }
 
