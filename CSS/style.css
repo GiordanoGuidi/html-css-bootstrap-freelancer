@@ -30,12 +30,12 @@ footer{
     color: white;
 }
 
-.row{
-    width: 100%;
-}
-
 .col{
     height: 100px;
+}
+
+section{
+    height: 300px;
 }
 
 /*UTILS*/
