@@ -28,7 +28,6 @@ section.information{
 footer{
     background-color: #2C3E50;
     color: white;
-    height: 70px;
 }
 
 .row{
@@ -51,6 +50,10 @@ footer{
 
 .container{
     border: 2px dashed black;
+}
+
+.container-fluid{
+    border: 2px dashed blueviolet;
 }
 
 
