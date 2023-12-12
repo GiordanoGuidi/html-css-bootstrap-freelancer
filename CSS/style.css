@@ -20,28 +20,33 @@ section.information{
     background-color: #39546d;
 }
 
-footer{
+.footer-bottom{
     background-color: #2C3E50;
+    color: white;
+}
+
+.footer-top{
+    background-color: #39546D;
     color: white;
 }
 
 /*UTILS*/
 
-.border-row{
+/* .border-row{
     border: 2px dashed rgb(236, 236, 236);
-}
+} */
 
-.border-col{
+/* .border-col{
     border: 2px dashed red;
-}
+} */
 
-.container{
+/* .container{
     border: 2px dashed black;
-}
+} */
 
-.container-fluid{
+/* .container-fluid{
     border: 2px dashed blueviolet;
-}
+} */
 
 /*JUMBOTRON*/
 
@@ -77,5 +82,6 @@ h2{
 #contact-me .form-control::placeholder{
     color: #2C3E50;
 }
+
 
 
