@@ -16,10 +16,6 @@ header{
     background-color: #1BBC9C;
 }
 
-section.contact-me{
-    background-color: violet;
-}
-
 section.information{
     background-color: #39546d;
 }
@@ -28,14 +24,6 @@ footer{
     background-color: #2C3E50;
     color: white;
 }
-
-/* .col{
-    height: 100px;
-} */
-
-/* section{
-    min-height: 300px;
-} */
 
 /*UTILS*/
 
@@ -77,3 +65,17 @@ h1{
 h2{
     font-size: 3rem;
 }
+
+/* SECTION CONTACT-ME */
+
+#contact-me .form-control{
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+    padding-left: 0;
+}
+
+#contact-me .form-control::placeholder{
+    color: #2C3E50;
+}
+
+
